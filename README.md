@@ -2,7 +2,17 @@
 
 A free, customizable foundation for building engaging clicker games like "Cookie Clicker" or "Cat Pop". Perfect for beginners and experienced developers looking to create addictive incremental games.
 
-![Game Preview](./preview.PNG)
+<p align="center">
+  <img src="./preview.PNG" alt="Game Preview" width="600">
+</p>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://github.com/awiones/Clicker-Game-Template/releases"><img src="https://img.shields.io/github/v/release/awiones/Clicker-Game-Template" alt="GitHub release"></a>
+  <a href="https://github.com/awiones/Clicker-Game-Template/stargazers"><img src="https://img.shields.io/github/stars/awiones/Clicker-Game-Template" alt="GitHub stars"></a>
+  <a href="https://github.com/awiones/Clicker-Game-Template/issues"><img src="https://img.shields.io/github/issues/awiones/Clicker-Game-Template" alt="GitHub issues"></a>
+  <a href="https://github.com/awiones/Clicker-Game-Template/network/members"><img src="https://img.shields.io/github/forks/awiones/Clicker-Game-Template" alt="GitHub forks"></a>
+</p>
 
 ## ✨ Features
 
@@ -84,6 +94,14 @@ For developers looking to extend functionality:
 - Create **offline progression** to keep players engaged
 - Add **sound effects** for more engaging gameplay
 
+## 📊 Project Stats
+
+[![Contributors](https://img.shields.io/github/contributors/awiones/Clicker-Game-Template)](https://github.com/awiones/Clicker-Game-Template/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/awiones/Clicker-Game-Template)](https://github.com/awiones/Clicker-Game-Template/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/awiones/Clicker-Game-Template)](https://github.com/awiones/Clicker-Game-Template)
+[![Code Size](https://img.shields.io/github/languages/code-size/awiones/Clicker-Game-Template)](https://github.com/awiones/Clicker-Game-Template)
+[![Languages](https://img.shields.io/github/languages/count/awiones/Clicker-Game-Template)](https://github.com/awiones/Clicker-Game-Template)
+
 ## 👏 Acknowledgments
 
 - Inspired by classic clicker games like **Cookie Clicker** and **Cat Pop**
@@ -109,7 +127,10 @@ Have questions or suggestions? Reach out to us:
 
 - Create an [Issue](https://github.com/awiones/Clicker-Game-Template/issues) on GitHub
 - Follow us on [Twitter](https://twitter.com/awiones)
+- Join our [Discord community](https://discord.gg/awiones)
 
 ---
 
-Made with ❤️ by Awiones
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20Awiones-red">
+</p>

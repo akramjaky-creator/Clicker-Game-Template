@@ -1,7 +1,7 @@
 # 🎮 Clicker Game Template
 
 <p align="center">
-  <img src="./preview.PNG" alt="Game Preview" width="600">
+  <img src="./v2preview.PNG" alt="Game Preview" width="600">
 </p>
 
 <p align="center">

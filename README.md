@@ -1,7 +1,5 @@
 # 🎮 Clicker Game Template
 
-A free, customizable foundation for building engaging clicker games like "Cookie Clicker" or "Cat Pop". Perfect for beginners and experienced developers looking to create addictive incremental games.
-
 <p align="center">
   <img src="./preview.PNG" alt="Game Preview" width="600">
 </p>
@@ -12,7 +10,11 @@ A free, customizable foundation for building engaging clicker games like "Cookie
   <a href="https://github.com/awiones/Clicker-Game-Template/stargazers"><img src="https://img.shields.io/github/stars/awiones/Clicker-Game-Template" alt="GitHub stars"></a>
   <a href="https://github.com/awiones/Clicker-Game-Template/issues"><img src="https://img.shields.io/github/issues/awiones/Clicker-Game-Template" alt="GitHub issues"></a>
   <a href="https://github.com/awiones/Clicker-Game-Template/network/members"><img src="https://img.shields.io/github/forks/awiones/Clicker-Game-Template" alt="GitHub forks"></a>
+  <a href="https://awiones.github.io/Clicker-Game-Template/"><img src="https://img.shields.io/badge/demo-online-green.svg" alt="Demo"></a>
 </p>
+
+A free, customizable foundation for building engaging clicker games like "Cookie Clicker" or "Cat Pop". Perfect for beginners and experienced developers looking to create addictive incremental games.
+
 
 ## ✨ Features
 

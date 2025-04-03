@@ -3,30 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clicker Game Template</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Doge Clicker - Fun Clicker Game</title>
+    <link rel="stylesheet" href="views/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="game-container">
-        <div class="click-area" id="clickButton">
-            <img src="doge.png" alt="Click Me!">
-            <div class="click-effect" id="clickEffect"></div>
-        </div>
-        <div class="leaderboard">
-            <h2>Leaderboard</h2>
-            <div class="leaderboard-box">
-                <ul id="leaderboardList"></ul>
+        <header class="game-header">
+            <h1 class="game-title">Doge Clicker</h1>
+            <div class="stats-bar">
+                <div class="stat">
+                    <i class="fas fa-hand-pointer"></i>
+                    <span id="playerClickCount">0</span> clicks
+                </div>
+                <div class="stat">
+                    <i class="fas fa-bolt"></i>
+                    <span id="clickPower">1</span> click power
+                </div>
             </div>
-        </div>
-        <div class="player-counter">
-            <span>Player Clicks:</span> <span id="playerClickCount">0</span>
-        </div>
+        </header>
+
+        <main class="game-content">
+            <div class="click-section">
+                <div class="click-area-container">
+                    <div class="click-area-background"></div>
+                    <div class="click-area" id="clickButton">
+                        <div class="doge-container">
+                            <img src="views/img/doge.png" alt="Click Me!" class="doge-image">
+                            <div class="doge-eyes">
+                                <div class="doge-eye left"></div>
+                                <div class="doge-eye right"></div>
+                            </div>
+                            <div class="doge-shine"></div>
+                        </div>
+                        <div class="click-ripple"></div>
+                        <div class="click-effect" id="clickEffect"></div>
+                    </div>
+                    <div class="click-shadow"></div>
+                </div>
+                <div class="click-message">Click the Doge!</div>
+            </div>
+
+            <div class="game-sidebar">
+                <div class="upgrades-section">
+                    <h2><i class="fas fa-arrow-up"></i> Upgrades</h2>
+                    <div class="upgrades-container">
+                        <div class="upgrade-item" id="clickPowerUpgrade">
+                            <div class="upgrade-icon"><i class="fas fa-hand-point-up"></i></div>
+                            <div class="upgrade-info">
+                                <h3>Better Clicks</h3>
+                                <p>+1 click power</p>
+                                <div class="upgrade-level">Level: <span id="clickPowerLevel">1</span></div>
+                            </div>
+                            <div class="upgrade-cost" id="clickPowerCost">50 clicks</div>
+                        </div>
+                        <div class="upgrade-item" id="autoClickerUpgrade">
+                            <div class="upgrade-icon"><i class="fas fa-robot"></i></div>
+                            <div class="upgrade-info">
+                                <h3>Auto Clicker</h3>
+                                <p>1 click per second</p>
+                                <div class="upgrade-level">Level: <span id="autoClickerLevel">0</span></div>
+                            </div>
+                            <div class="upgrade-cost" id="autoClickerCost">100 clicks</div>
+                        </div>
+                        <div class="upgrade-item" id="multiplyUpgrade">
+                            <div class="upgrade-icon"><i class="fas fa-times"></i></div>
+                            <div class="upgrade-info">
+                                <h3>Click Multiplier</h3>
+                                <p>2x click power</p>
+                                <div class="upgrade-level">Level: <span id="multiplierLevel">0</span></div>
+                            </div>
+                            <div class="upgrade-cost" id="multiplierCost">500 clicks</div>
+                        </div>
+                        <div class="upgrade-item" id="criticalUpgrade">
+                            <div class="upgrade-icon"><i class="fas fa-bolt"></i></div>
+                            <div class="upgrade-info">
+                                <h3>Critical Clicks</h3>
+                                <p>10% chance for 3x clicks</p>
+                                <div class="upgrade-level">Level: <span id="criticalLevel">0</span></div>
+                            </div>
+                            <div class="upgrade-cost" id="criticalCost">1000 clicks</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="leaderboard">
+                    <h2><i class="fas fa-trophy"></i> Leaderboard</h2>
+                    <div class="leaderboard-box">
+                        <ul id="leaderboardList"></ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="game-footer">
+            <div class="social-buttons">
+                <button class="social-btn" id="shareBtn"><i class="fas fa-share-alt"></i> Share</button>
+                <button class="social-btn" id="saveBtn"><i class="fas fa-save"></i> Save</button>
+            </div>
+        </footer>
     </div>
 
-    <audio id="clickSound" src="sounds/click-sound.mp3"></audio>
+    <div class="achievements-popup" id="achievementPopup">
+        <i class="fas fa-award"></i>
+        <span id="achievementText">Achievement Unlocked!</span>
+    </div>
+
+    <audio id="clickSound" src="views/sounds/click-sound.mp3"></audio>
+    <audio id="upgradeSound" src="views/sounds/upgrade-sound.mp3"></audio>
+    <audio id="achievementSound" src="views/sounds/achievement-sound.mp3"></audio>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/2.0.0/twemoji.min.js"></script>
-    <script src="script.js"></script>
+    <script src="views/js/script.js"></script>
 </body>
 </html>
-

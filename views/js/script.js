@@ -747,3 +747,12 @@ window.onload = () => {
         }, 1000);
     }, 500);
 };
+const AdController = window.Adsgram.init({ blockId: "19316" });
+
+function showAd() {
+    AdController.show().then(() => {
+        alert("مبروك! شاهدت الإعلان بنجاح.");
+    }).catch(() => {
+        alert("عذراً، لا يوجد إعلان متوفر حالياً.");
+    });
+}

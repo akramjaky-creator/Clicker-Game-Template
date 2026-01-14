@@ -48,14 +48,13 @@
             <div class="game-sidebar">
                 <div class="upgrades-section">
                     <h2><i class="fas fa-arrow-up"></i> Upgrades</h2>
-                    <div class="upgrade-item" onclick="showAd()" style="background: linear-gradient(45deg, #ffd700, #ffa500); border: 2px solid #fff; margin-bottom: 15px; cursor: pointer; border-radius: 12px; padding: 10px; display: flex; align-items: center;">
+                    <div class="upgrade-item" onclick="if(window.Adsgram) { window.Adsgram.init({ blockId: '19316' }).show().then(() => alert('تمت المشاهدة!')).catch(() => alert('خطأ في التحميل أو إعلان غير متوفر')); } else { alert('يرجى فتح اللعبة من الهاتف داخل تليجرام لظهور الإعلانات'); }" style="background: linear-gradient(45deg, #ffd700, #ffa500); border: 2px solid #fff; margin-bottom: 15px; cursor: pointer; border-radius: 12px; padding: 10px; display: flex; align-items: center;">
     <div class="upgrade-icon" style="font-size: 24px; margin-right: 15px;">🎁</div>
     <div class="upgrade-info">
         <h3 style="margin: 0; color: #000;">مكافأة Jump Cat</h3>
-        <p style="margin: 0; color: #333; font-size: 12px;">شاهد إعلان واحصل على نقاط</p>
+        <p style="margin: 0; color: #333; font-size: 12px;">اضغط لمشاهدة الإعلان</p>
     </div>
 </div>
-
                     <div class="upgrades-container">
                         <div class="upgrade-item" id="clickPowerUpgrade">
                             <div class="upgrade-icon"><i class="fas fa-hand-point-up"></i></div>
@@ -139,5 +138,6 @@
 
 </body>
 </html>
+
 
 

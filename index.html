@@ -116,5 +116,19 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/2.0.0/twemoji.min.js"></script>
     <script src="views/js/script.js"></script>
+        <script src="https://sad.adsgram.ai/js/adsgram-ad-sdk.js"></script>
+    <script>
+        const AdController = window.Adsgram.init({ blockId: "19316" });
+        function showAd() {
+            AdController.show().then(() => {
+                // المكافأة عند اكتمال الإعلان
+                alert("تهانينا! حصلت على مكافأة لمشاهدة الإعلان.");
+            }).catch((e) => {
+                console.info("Ad error or skip");
+            });
+        }
+    </script>
+
 </body>
 </html>
+
